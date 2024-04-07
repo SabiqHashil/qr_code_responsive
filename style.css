@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+.main {
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 10%;
+}
+
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    height: 460px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card_description {
+    padding: 15px;
+}
+
+.card_description .bottom_title {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.bottom_description .bottom_description {
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%);
+    margin: 15px 0;
+}
+
+/* - Mobile: 375px */
+/* Use a media query to add a breakpoint at 375px: */
+@media screen and (min-width: 375px) {
+    .card {
+        max-width: 330px;
+        margin: auto;
+    }
+
+    .main {
+        margin-top: 90px;
+    }
+}
+
+/* - Desktop: 1440px */
+/* Use a media query to add a breakpoint at 1440px: */
+@media screen and (max-width: 1440px) {
+    .main {
+        justify-items: center;
+    }
+}
