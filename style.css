@@ -44,7 +44,7 @@ body {
     color: hsl(218, 44%, 22%);
 }
 
-.bottom_description .bottom_description {
+.card_description .bottom_description {
     font-size: 15px;
     font-weight: 300;
     color: hsl(220, 15%, 55%);
