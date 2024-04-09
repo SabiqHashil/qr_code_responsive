@@ -1,4 +1,4 @@
-# QR code component
+# Frontend Mentor - QR code component
 
 A responsive QR code component. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
